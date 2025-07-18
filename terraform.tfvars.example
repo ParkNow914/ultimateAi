@@ -1,0 +1,29 @@
+# Oracle Cloud Credentials
+oci_tenancy_ocid     = "ocid1.tenancy.oc1..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+oci_user_ocid        = "ocid1.user.oc1..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+oci_fingerprint      = "xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx"
+oci_private_key_path = "~/.oci/oci_api_key.pem"
+oci_region          = "sa-saopaulo-1"
+
+# Oracle Cloud Resources
+compartment_id      = "ocid1.compartment.oc1..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+subnet_id           = "ocid1.subnet.oc1.sa-saopaulo-1.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+public_ssh_key_path = "~/.ssh/id_rsa.pub"
+
+# Cloudflare Credentials
+cloudflare_api_token  = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+cloudflare_account_id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# GitHub Token
+github_token        = "ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+github_runner_token = "xxxxxxxxxxxxxxxxxxxxxx"  # Token for GitHub Actions self-hosted runners
+
+# Upstash Redis
+upstash_redis_url   = "https://xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.upstash.io"
+upstash_redis_token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# OpenAI API Key
+openai_api_key      = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# Domain Configuration
+domain_name         = "yourdomain.com"
